@@ -2,7 +2,7 @@
 
 A set of numerical analysis tools written in node.js
 
-##Methods included:
+### Methods included:
 * Find root of a function ([Check the theory](https://en.wikipedia.org/wiki/Root-finding_algorithm))
   * Partition method
   * Newton Raphson method
@@ -22,7 +22,7 @@ A set of numerical analysis tools written in node.js
   * Gauss Siedel method for solving A*x=b ([Check the theory](https://en.wikipedia.org/wiki/Gauss%E2%80%93Seidel_method))
 
 
-###Example for root finding
+### Example for root finding
 
 ```javascript
 var root_finding_methods = require('./lib/root_finding_methods');
@@ -64,7 +64,7 @@ Which is pretty close! But as you see the first three digits are correct.
 
 
 
-##Example for function approach
+### Example for function approach
 
 ```javascript
 var function_approach_methods = require('./lib/function_approach_methods');
